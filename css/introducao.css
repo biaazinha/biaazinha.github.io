@@ -1,0 +1,75 @@
+.introducaoG{
+    max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #0a090a;
+    padding-top: 180px;
+}
+.introducao{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.introducao h1{
+    font-size: 3rem;
+    line-height: 1.125;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+.curriculo{
+    display: flex;
+    width: 120px;
+    height: 50px;
+    border: 2px solid #F60069;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.curriculo img{
+    width: 20px;
+    height: 20px;
+}
+button:hover {
+    opacity: 0.8;
+    width: 122px;
+    height: 52px;
+}
+
+
+span{
+    color: #F60069;
+}
+
+@media(max-width: 1000px){
+    .introducao h1{
+        font-size: 3rem;
+    }
+}
+@media(max-width: 800px){
+    .introducao{
+        grid-template-columns: 1fr 1fr; 
+        gap: 40px;    
+    }
+    .introducao h1{
+        font-size: 2rem;
+    }
+    .introducao img{
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+@media(max-width: 400px){
+    .introducao{
+        grid-template-columns: 1fr;
+    }
+    .introducao img{
+        display: none;
+    }
+}

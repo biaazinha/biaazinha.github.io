@@ -1,0 +1,236 @@
+.experiencia{
+    background-color: #0a090a;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteudo_exp{
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+.trabalhos{
+    max-width: 55ch;
+}
+
+.trabalho{
+    border: 2px solid #FF90AB;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.trabalho:hover{
+    border: 2px solid #F60069;
+}
+
+.nome_trabalho{
+    font-size: 25px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.funcao{
+    font-size: 18px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+.respon{
+    font-size: 14px;
+    margin-left: 15px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+
+}
+.span{
+    font-weight: bold;  
+    color: #FF90AB;
+    text-transform: uppercase;
+}
+
+.formacao-extra h3{
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+}
+.formacao-extra h3::before{
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -36px;
+    top: -4px;
+}
+.formacao h3::before{
+    background: url('../img/icon_formacao.svg') no-repeat center center;
+}
+.cursos h3::before{
+    background: url('../img/cursos.svg') no-repeat center center;
+}
+.idiomas h3::before{
+    background: url('../img/idiomas.svg') no-repeat center center;
+}
+.formacao-extra li{
+    font-size: 1.125rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+.formacao-extra span{
+    color: #8f8f8f;
+}
+.cursos li{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 1200px){
+    .trabalhos{
+        max-width: 40ch;
+    }
+    
+    .trabalho{
+        margin-bottom: 40px;
+    }
+    .nome_trabalho{
+        font-size: 20px;
+    }
+    .funcao{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .respon{
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 1000px){
+    .formacao-extra h3{
+        font-size: 0.85rem;
+        line-height: 1.4;
+        color: #8f8f8f;
+        margin-bottom: 20px;
+    }
+    .formacao-extra li{
+        font-size: 14px;
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+    .formacao-extra h3::before{
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        left: -25px;
+        top: -4px;
+    }
+
+}
+
+@media(max-width: 900px){
+    .formacao-extra h3{
+        font-size: 0.75rem;
+        line-height: 1.4;
+        color: #8f8f8f;
+        margin-bottom: 20px;
+    }
+
+    .formacao-extra li{
+        font-size: 12px;
+        max-width: 35ch;
+    }
+    .formacao-extra span{
+        color: #8f8f8f;
+        margin-left: 20px;
+    }
+    .formacao-extra h3::before{
+        width: 20px;
+        height: 20px;
+        left: -30px;
+    }
+    .cursos li{
+        display: block; 
+
+    }
+}
+
+@media(max-width: 900px){
+    .trabalhos{
+        max-width: 25ch;
+    }
+    
+    .trabalho{
+        margin-bottom: 40px;
+    }
+    .nome_trabalho{
+        font-size: 14px;
+    }
+    .funcao{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .respon{
+        font-size: 10px;
+    }
+
+}
+
+@media(max-width: 900px){
+    .trabalhos{
+        max-width: 25ch;
+    }
+    
+    .trabalho{
+        margin-bottom: 40px;
+    }
+    .nome_trabalho{
+        font-size: 14px;
+    }
+    .funcao{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .respon{
+        font-size: 10px;
+    }
+    .formacao-extra h3::before{
+        width: 20px;
+        height: 20px;
+        left: -25px;
+    }
+    .cursos_ex{
+        margin-left: 110px;
+    }
+
+}
+
+@media(max-width: 600px){
+    .cursos_ex{
+        margin-left: 40px;
+    }
+
+}
+
+@media(max-width: 450px){
+    .cursos_ex{
+        margin-left: 40px;
+    }
+    .conteudo_exp{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+
+        padding-top: 50px;
+    }
+    .trabalhos{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+    }
+
+}

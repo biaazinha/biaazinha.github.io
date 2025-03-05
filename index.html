@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bianca Ramos</title>
+    <meta name="description" content="Desenvolvedor Front End e UX/UI Designer, 
+    Localizado no Rio de Janeiro">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/icon_formacao.svg" type="image/svg+xml">
+
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="#"  class="logo">Bianca Ramos</a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#experiencia" class="nav-link">Experiências</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="#experiencia" class="nav-link">Experiências</a></li>
+                <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contatos</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <main class="introducaoG">
+        <div class="introducao">
+        <div>
+            <h1>Olá, eu sou a </br><span>Bianca</span></h1>
+            <button class="curriculo" id="downloadBtn">Currículo <img src="./img/icon_download.svg" alt=""></button>
+        </div>
+        <img class="imagem" src="./img/bianca.png" alt="Bianca" width="250" height="250">
+        </div>
+    </main>
+    
+    <section class="sobre" id="sobre" aria-label="Sobre">
+        <h2 class="titulo">Sobre Mim</h2>
+        <div class="info_sobre">
+            <img class="imagem_sobre" src="./img/img.svg" alt="">
+            <div>
+            <p class="sobre-texto">Sou <span>Bianca</span>, apaixonada por <span>tecnologia</span> e inovação. 
+                Formada em <span>Análise e Desenvolvimento de Sistemas</span>, dedico minha carreira a explorar 
+                o universo da programação e ao desenvolvimento de soluções criativas. 
+                Tenho experiência em desenvolvimento <span>back-end</span> com <span>Node.js</span> e no suporte técnico a 
+                sistemas <span>ERP</span>, sempre com um olhar analítico e orientado a <span>resultados</span>.
+           </p>
+           <p class="sobre-texto">Atualmente, estou expandindo meus conhecimentos em <span>Ciência de
+            Dados</span>, área que me fascina por unir <span>análise estratégica</span> e tecnologia avançada para 
+            solucionar problemas complexos. Estou em busca de <span>desafios</span> que me permitam crescer e 
+            contribuir de forma significativa para equipes e <span>projetos</span>.
+            </p>
+            <p class="sobre-texto">Sou uma <span>profissional</span> dedicada, detalhista e organizada, 
+                sempre buscando entregar soluções <span>eficientes</span> e <span>funcionais</span>. Adoro aprender novas <span>tecnologias</span>, 
+                enfrentar desafios e colaborar em <span>projetos</span> que promovam <span>impacto positivo</span>.
+            </p>
+        </div>
+ 
+        </div>
+    </section>
+
+    <section class="habilidades" id="habilidades" aria-label="habilidades">
+        <h2 class="titulo">Habilidades</h2>
+        <div class="linguagens">
+            <div class="container_li">
+           <div style="border: 2px solid #FFD600;" class="linguanges_tipo">
+                <p class="texto_ling">Python</p>
+                <img class="img_li" src="./img/icon_py.svg" alt="">
+           </div>
+
+           <div style="border: 2px solid #0288D1;" class="linguanges_tipo">
+                <p class="texto_ling">TypeScript</p>
+                <img class="img_li" src="./img/icon_ts.svg" alt="">
+            </div>
+
+            <div style="border: 2px solid #FFD600;" class="linguanges_tipo">
+                <p class="texto_ling">JavaScript</p>
+                <img class="img_li" src="./img/icon_js.svg" alt="">
+            </div>
+
+            <div style="border: 2px solid #E65100;" class="linguanges_tipo">
+                <p class="texto_ling">HTML</p>
+                <img class="img_li" src="./img/icon_html.svg" alt="">
+            </div>
+
+            <div style="border: 2px solid #0288D1;" class="linguanges_tipo">
+                <p class="texto_ling">CSS</p>
+                <img class="img_li" src="./img/icon_css.svg" alt="">
+            </div>
+
+            <div style="border: 2px solid #539E43;" class="linguanges_tipo">
+                <p class="texto_ling">Node.js</p>
+                <img class="img_li" src="./img/icon_node.svg" alt="">
+            </div>
+        </div>
+
+        </div>
+
+
+        <div class="linguagens">
+            <div class="container_li">
+           <div style="border: 2px solid #6D9A00;" class="linguanges_tipo">
+                <p class="texto_ling">Excel</p>
+                <img class="img_li" src="./img/icon_excel.svg" alt="">
+           </div>
+
+           <div style="border: 2px solid #F37726;" class="linguanges_tipo">
+                <p class="texto_ling">Jupyter Notebook</p>
+                <img class="img_li" src="./img/icon_ju.svg" alt="">
+            </div>
+
+            <div style="border: 2px solid #FFC107;" class="linguanges_tipo">
+                <p class="texto_ling">Power BI</p>
+                <img class="img_li" src="./img/icon_pow.svg" alt="">
+            </div>
+
+            <div style="border: 2px solid #00546B;" class="linguanges_tipo">
+                <p class="texto_ling">MySQL</p>
+                <img class="img_li" src="./img/icon_mysql.svg" alt="">
+           </div>
+
+           <div style="border: 2px solid #13AA52;" class="linguanges_tipo">
+                <p class="texto_ling">MongoDB</p>
+                <img class="img_li" src="./img/icon_mo.svg" alt="">
+            </div>
+        </div>
+        
+        </div>
+
+        <div class="linguagens">
+            <div class="container_li">
+           
+
+           <div style="border: 2px solid #FF6C37;" class="linguanges_tipo">
+                <p class="texto_ling">Postman</p>
+                <img class="img_li" src="./img/icon_postman.svg" alt="">
+            </div>
+
+            <div style="border: 2px solid #5F00D3;" class="linguanges_tipo">
+                <p class="texto_ling">Insomnia</p>
+                <img class="img_li" src="./img/icon_Insomnia.svg" alt="">
+            </div>
+
+            <div style="border: 2px solid #6D9A00;" class="linguanges_tipo">
+                <p class="texto_ling">Swagger</p>
+                <img class="img_li" src="./img/icon_sw.svg" alt="">
+            </div>
+
+            <div style="border: 2px solid #656464;" class="linguanges_tipo">
+                <p class="texto_ling">Kanban</p>
+                <img class="img_li" src="./img/icon_kanban.svg" alt="">
+            </div>
+
+
+
+        </div>
+
+        </div>
+
+
+        <div class="linguagens">
+            <div class="container_li">
+           
+
+           <div style="border: 2px solid #DE4C36;" class="linguanges_tipo">
+                <p class="texto_ling">GIT</p>
+                <img class="img_li" src="./img/icon_git.svg" alt="">
+            </div>
+
+            <div style="border: 2px solid #3E75C3;" class="linguanges_tipo">
+                <p class="texto_ling">GitHub</p>
+                <img class="img_li" src="./img/icon_github.svg" alt="">
+            </div>
+
+            <div style="border: 2px solid #0288D1;" class="linguanges_tipo">
+                <p class="texto_ling">Scrum</p>
+                <img class="img_li" src="./img/icon_scrum.svg" alt="">
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="experiencia" id="experiencia" aria-label="Experiência">
+        <h2 class="titulo">Experiência</h2>
+        <div class="conteudo_exp">
+
+            <div class="trabalhos">
+                <div class="trabalho">
+                    <h1 class="nome_trabalho">Plataformas marketplace e e-commerces 10/2020 - 07/2023 </h1>
+                    <p class="funcao">Microempreendedora individual</p>
+                    <p class="respon"><span class="span"> responsável por:</span> Criação de anúncios de produtos nas plataformas, atendimento direto aos 
+                        clientes compradores, embalagem e despache das vendas, emissão de notas fiscais no Bling e na SoftUp ERP, gestão de todo 
+                        processo de pré-venda e pós-venda, além da gestão de produtos e gestão das contas.  </p>
+                </div>
+
+                <div class="trabalho">
+                    <h1 class="nome_trabalho">Compass UOL  | 07/2023 - 12/2023 </h1>
+                    <p class="funcao">Estagiária em desenvolvimento back-end</p>
+                    <p class="respon"><span class="span"> responsável por:</span> Desenvolvimento de sistemas Back-End utilizando Node.js e Typescript. 
+                        Contribuí em projetos individuais e em grupo, aplicando tecnologias como MongoDB, Git, Swagger, Jest e Express. Trabalhei com 
+                        metodologias ágeis (Scrum e Kanban) e ferramentas como Trello, desenvolvendo e integrando APIs com bancos de dados MongoDB. 
+                        Além de adquirir básico conhecimentos em ferramentas AWS. </p>
+                </div>
+
+                <div class="trabalho">
+                    <h1 class="nome_trabalho">SoftUp ERP | 03/2024 - atual </h1>
+                    <p class="funcao">Analista de suporte</p>
+                    <p class="respon"> <span class="span"> responsável por:</span> Atendimento ao cliente via telefone, octadesk, anydesk e sistemas de tickets, com registro, 
+                        classificação e resolução de problemas técnicos relacionados ao ERP. Realizei orientações aos usuários sobre funcionalidades do 
+                        sistema, documentei soluções e melhores práticas, e acompanhei chamados escalados para outros níveis de suporte. Além disso, 
+                        monitorei o desempenho do ERP e mantive comunicação clara sobre interrupções e mudanças no sistema, sempre utilizando 
+                        ferramentas de suporte remoto e aplicando habilidades técnicas. </p>
+                </div>
+            </div>
+
+            <div class="cursos_ex">
+                <div class="formacao-extra">
+
+                    <div class="formacao">
+                        <h3>Formação acadêmica</h3>
+                        <ul>
+                            <li>Graduação em  Análise e Desenvolvimento de Sistemas </br> Fatec Franca</li>
+                            <li>Curso de Inglês | Wizard e Fisk</li>
+                            <li>Curso de Espanhol | Escola</li>
+
+                        </ul>
+                    </div>
+                    
+                    <div class="cursos">
+                        <h3>Cursos Intensivos</h3>
+                        <ul>
+                            <li>Linguagem Python Para Análise de Dados e Data Science <span> 72h</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="idiomas">
+                        <h3>Idiomas</h3>
+                        <ul>
+                            <li>Ingles <span>/ Intermediário</span></li>
+                            <li>Espanhol <span>/ Básico</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos" aria-label="Projetos">
+        <h2 class="titulo">Projetos</h2>
+        <div class="conteudo_pro">
+        
+            <div class="trabalhos">
+                <div class="trabalho">
+                    <h1 class="nome_projeto">Trabalho de Graduação</h1>
+                    <p class="sub_nome">SAFA</p>
+                    <p class="texto_pro">O propósito deste projeto é desenvolver um sistema digital de fidelização 
+                        de clientes para uma loja de peças agrícolas, denominado SAFA - Sistema de Atendimento e 
+                        Fidelização Agro, abordando a necessidade de engajar clientes e oferecer uma experiência 
+                        de compra personalizada no ambiente online. 
+                    </p> 
+                    <p class="texto_pro"><a href="#">Saber mais</a>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contato">
+        <h2 class="titulo">Contatos</h2>
+
+        <div class="footer-container">
+            <p class="footer-texto">Estou disponível para novas oportunidades.</p>
+            <div class="contatos">
+                <a href="https://wa.me/5516981000104">
+                <div class="contato">
+                    <img src="./img/num_icon.svg" alt="">
+                    <h3>Telefone</h3>
+                    
+                </div>
+            </a>
+            <a href="https://linkedin.com/in/bianca-ramos-612428266/">
+                <div class="contato">
+                    
+                    <img src="./img/link_icon.svg" alt="">
+                    <h3>LinkedIn</h3>
+                    
+                </div>
+            </a>
+
+            <a href="https://github.com/biaazinha">
+                <div class="contato">
+                    
+                    <img src="./img/git_icon.svg" alt="">
+                    <h3>GitHub</h3>
+                    
+                </div>
+            </a>
+
+            <a href="mailto:biancakaroliner04@gmail.com">
+                <div class="contato">
+                    
+                    <img src="./img/email_icon.svg" alt="">
+                    <h3>Email</h3>
+                    
+                </div>
+            </a>
+                
+        </div>
+
+    </footer>
+
+   
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
